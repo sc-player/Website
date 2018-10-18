@@ -1,0 +1,106 @@
+body, html{
+  color: #333;
+  background-color: #ddd; margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #131;
+}
+
+hr{
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.75), transparent);
+}.enhanced{
+  height:7.5px;
+  background-image: linear-gradient(to left, transparent, rgba(0.3, 0, 0.3, 0.75), transparent);
+}
+
+.title{
+  background-color:#aaa;
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  padding: 1% 0;
+}
+
+.main{
+  margin: 0px 7px 0px 7px;
+}
+ 
+.images img{
+  max-width: 30%;
+  padding: 0 1%;
+  height: auto;
+}
+
+.contentLeft{
+  float: left;
+  width: 33%;
+  height: 300px;
+}
+
+.contentRight{
+  float: right;
+  width: 33%;
+  height: 300px;
+}
+
+.contentCenter{
+  display: inline-block;
+  width: 33%;
+  height:300px;
+}
+
+.floating{
+  position: fixed;
+  z-index: 1000; 
+}
+
+.instructLink{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #aaa; 
+}
+
+.instructLink > h3 {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.instructMsg{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.instructionsTOC{
+  padding-top:100px;
+}
+
+#instructions{
+  margin: 8px;
+}
+
+.instrContent{
+  text-indent: 30px;
+}
+
+.alignLeft{
+  float: left;
+  width: 33%;
+}
+
+.center{
+  display: inline-block;
+}
+
+.alignRight{
+  float: right;
+  width: 33%;
+}
